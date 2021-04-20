@@ -1,0 +1,7 @@
+# dependencies
+/node_modules
+/dist
+
+# editor directories and files
+.vscode
+.DS_Store
