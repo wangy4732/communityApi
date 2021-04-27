@@ -33,3 +33,6 @@
   npx node --inspect-brk ./node_modules/.bin/webpack --inline --progress
   chrome://inspect/#devices      调试webpack
   vscode     调试（🐛）
+
+## src/config  公共文件的配置
+  ## mongoose 操作mangodb

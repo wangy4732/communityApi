@@ -6,6 +6,7 @@
 
 
 import koaConbine from 'koa-combine-routers'
-import demoRouter from './demoRouter'
+import demoRouter from './publicRouter'
+import loginRouter from './loginRouter'
 
-export default koaConbine(demoRouter)
+export default koaConbine(demoRouter, loginRouter)

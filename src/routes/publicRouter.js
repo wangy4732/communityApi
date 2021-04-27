@@ -2,10 +2,10 @@
 // const a = require('../api/demoController')
 
 import koaRouter from '@koa/router'
-import demoController from '../api/demoController'
+import publicController from '../api/publicController'
 
 const Router = new koaRouter()
 
-Router.get('/demo', demoController.demo)
+Router.get('/publicCaptcha', publicController.demo)
 
 export default Router
